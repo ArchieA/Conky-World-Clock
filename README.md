@@ -10,8 +10,10 @@ Frankly, I would consider this a personal project. It still has ways to go to be
 ***
 
 ## Quickstart
-
-Renaming
+#### Download
+```Plain&#x20;Text
+git clone https://github.com/ArchieA/Conky-World-Clock
+```
 
 #### Running the widgets
 
