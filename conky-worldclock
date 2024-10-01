@@ -35,50 +35,50 @@ conky.config = {
 conky.text = [[
 # |--CHANGCHUN, JL, CN: MY LOCAL TIME
 ${font Nunito:pixelsize=12}${color1}${voffset 0}${offset 0}Changchun, JL, CN${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}P${color}${font}
-${font zoraclockH:pixelsize=80}${color grey}${voffset -63}${offset 14}${execpi 20 ~/.moconkyconfig/scripts/clock.sh hour}${color}${font}
-${font zoraclockM:pixelsize=88}${color grey}${voffset -63}${offset 11}${execpi 20 ~/.moconkyconfig/scripts/clock.sh minute}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 25}${offset 10}${time %a, %b %d, %Y}${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}P${color}${font}
+${font zoraclockH:pixelsize=80}${color2}${voffset -63}${offset 14}${execpi 20 ~/.conky/worldclock/clock.sh hour}${color}${font}
+${font zoraclockM:pixelsize=88}${color2}${voffset -63}${offset 11}${execpi 20 ~/.conky/worldclock/clock.sh minute}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset 25}${offset 25}${time %b %d, %Y}${color}${font}
 
 # |--NEW DELHI, INDIA
 ${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 125}New Delhi, India${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 125}O${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 160}${tztime Asia/Kolkata %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 130}${tztime Asia/Kolkota %a, %b %d, %Y}${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 125}Q${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 160}${tztime Asia/Calcutta %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 163}${tztime Asia/Calcutta %b %d}${color}${font}
 
 # |--DUBAI, UAE
-${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 250}Dubai, UAE${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 250}Q${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 285}${tztime Asia/Dubai %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 255}${tztime Asia/Dubai %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset -122}${offset 250}Dubai, UAE${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 250}P${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 285}${tztime Asia/Dubai %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 288}${tztime Asia/Dubai %b %d}${color}${font}
 
 # |--WARSAW, POLAND
-${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 375}Warsaw, Poland${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 375}R${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 410}${tztime Europe/Warsaw %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 380}${tztime Europe/Warsaw %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset -124}${offset 375}Warsaw, Poland${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 375}Q${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 410}${tztime Europe/Warsaw %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 413}${tztime Europe/Warsaw %b %d}${color}${font}
 
 # |--LONDON, UK
-${font Nunito:pixelsize=12}${color1}${voffset 0}${offset 0}London, UK${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}R${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 35}${tztime Europe/London %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 10}${tztime Europe/London %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset 27}${offset 0}London, UK${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}Q${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 35}${tztime Europe/London %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 37}${tztime Europe/London %b %d}${color}${font}
 
 # |--NEW YORK, USA
-${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 125}New York, USA${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 125}Q${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 160}${tztime America/New_York %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 130}${tztime America/New_York %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset -124}${offset 125}New York, USA${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 125}P${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 160}${tztime America/New_York %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 163}${tztime America/New_York %b %d}${color}${font}
 
 # |--CALGARY, AL, CA
-${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 250}Calgary, AB, CA${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 250}O${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 285}${tztime America/Edmonton %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 255}${tztime America/Edmonton %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset -124}${offset 250}Calgary, AB, CA${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 250}Q${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 285}${tztime America/Edmonton %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 288}${tztime America/Edmonton %b %d}${color}${font}
 
 # |--LOS ANGELES, CA, USA
-${font Nunito:pixelsize=12}${color1}${voffset -174}${offset 375}Los Angeles, CA, USA${color}${font}
-${font clockfaces:pixelsize=100}${color1}${voffset 0}${offset 375}S${color}${font}
-${font Nunito:pixelsize=14}${color0}${voffset -40}${offset 410}${tztime America/Los_Angeles %H:%M}${color}${font}
-${font Nunito:pixelsize=10}${color1}${voffset 43}${offset 380}${tztime America/Los_Angeles %a, %b %d, %Y}${color}${font}
+${font Nunito:pixelsize=12}${color1}${voffset -124}${offset 375}Los Angeles, CA, USA${color}${font}
+${font clockfaces:pixelsize=100}${color0}${voffset 0}${offset 375}P${color}${font}
+${font Nunito:pixelsize=14}${color2}${voffset -40}${offset 410}${tztime US/Pacific %H:%M}${color}${font}
+${font Nunito:pixelsize=10}${color2}${voffset -8}${offset 413}${tztime US/Pacific %b %d}${color}${font}
 ]]
