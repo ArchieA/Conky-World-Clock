@@ -14,13 +14,19 @@ Frankly, I would consider this a personal project. It still has ways to go to be
 ```Plain&#x20;Text
 git clone https://github.com/ArchieA/Conky-World-Clock
 ```
+You will need to move and rename the folder Conky-World-Clock/conky to ~/.conky
+and the file Conky-World-Clock/conky-worldclock to ~/.conky-worldclock .
+
+You will also need to install Conky-World-Clock/fonts/{clockfaces.ttf, zoraclockH.ttf and zoraclockM.ttf
+
+You should also modify ~/.conky-worldclock line #39 to your geolocation. If you don't know your geolocation, there are several ways to find out.
 
 #### Running the widgets
 
 In your terminal of choice:
 
 ```Plain&#x20;Text
-conky ~/.conky-worldclock
+conky -c ~/.conky-worldclock
 ```
-This command, depending on your Desktop Environment, will launch the widget on the top left corner of your display.
+The above command should work on any desktop environment, and should launch the widget on the top left corner of your display.
 
